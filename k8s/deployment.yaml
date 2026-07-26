@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: gitops-app
-          image: aayodipe/gitops-app:b5cb490affbb8f33c94a0f79aa170f5e46590dae
+          image: aayodipe/gitops-app:9fd2838dcbdfe8f00a16a108882c8d59e21f2ab6
           imagePullPolicy: Always
           ports:
             - containerPort: 80
