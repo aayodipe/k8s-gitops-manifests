@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: gitops-app
-          image: aayodipe/gitops-app:latest   # pipeline updates this
+          image: aayodipe/gitops-app:677aa728b1b9ebe16c4a7c48b56d4cf31349b2a4
           imagePullPolicy: Always
           ports:
             - containerPort: 80
